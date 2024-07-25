@@ -2,11 +2,11 @@ lazy_static::lazy_static! {
 pub static ref T: std::collections::HashMap<&'static str, &'static str> =
     [
         ("desk_tip", "Your desktop can be accessed with this ID and password."),
-        ("connecting_status", "Connecting to the RustDesk network..."),
+        ("connecting_status", "Connecting to the MIT42 network..."),
         ("not_ready_status", "Not ready. Please check your connection"),
         ("ID/Relay Server", "ID/Relay server"),
         ("id_change_tip", "Only a-z, A-Z, 0-9 and _ (underscore) characters allowed. The first letter must be a-z, A-Z. Length between 6 and 16."),
-        ("Slogan_tip", "Made with heart in this chaotic world!"),
+        ("Slogan_tip", "Made with heart in this chaotic world! - MIT42-Edition"),
         ("Build Date", "Build date"),
         ("Audio Input", "Audio input"),
         ("Hardware Codec", "Hardware codec"),
